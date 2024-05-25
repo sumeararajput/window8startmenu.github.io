@@ -1,0 +1,393 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    position: relative; 
+    /* text-align: center;  */
+    left: 230px;
+    top: 30px;
+    background-color: rgba(128, 128, 128, 0.363);
+    height: 500px;
+    width: 300px;
+    grid-template-columns: 144px 144px;
+    grid-gap:10px;
+    padding: 5px;
+   
+  
+}
+/* .items{
+    background-color: aqua; 
+}  */
+.item1{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-shopify{
+  font-size: 50px;
+    color: white;
+}
+.h1store{
+    color: white;
+   position: absolute;
+   margin-top: 90px;
+   font-size: 12px;
+   margin-right: 90px;
+}
+.item2{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-gamepad{
+    font-size: 50px;
+    color: white;
+}
+.game{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 90px;
+}
+.item3{
+  background-color: rgba(128, 0, 128, 0.671);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.fa-map{
+    font-size: 50px;
+    color: white;
+}
+.map{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 90px;
+}
+.item4{
+    background-color: rgba(65, 105, 225, 0.699);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-internet-explorer{
+    font-size: 50px;
+    color: white;
+}
+.explorer{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 80px;
+}
+.item5{
+    background-color:orange;
+    grid-column: 1 /span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-video{
+    font-size: 50px;
+    color: white;
+}
+.video{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 230px;
+}
+.item6{
+   
+    background-image: url(https://wallpapercave.com/wp/wp2594606.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: greenyellow ;  */
+    grid-column: 1 /span 2; 
+    display: flex;
+ }
+.item6img{
+   height: 50px;
+ 
+}
+.paradesktop{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-left: 10px;
+  
+}
+.container2{
+     display: grid;
+    position: absolute; 
+    right: 367px;
+    top: 30px;
+    background-color: rgba(128, 128, 128, 0.363);
+    height: 500px;
+    width: 605px;
+    grid-template-columns: 144px 144px 144px 144px;
+    grid-gap:10px;
+    padding: 5px;
+  
+}
+ /* .items{
+   
+}    */
+.item7{
+  background-color:rgba(255, 0, 0, 0.89) ;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.fa-id-badge{
+    font-size: 40px;
+    color: white;
+ 
+}
+.profile{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 240px;
+}
+.item8{
+    background-color: green;
+   grid-column: 3 / span 2;
+   display: flex;
+    align-items: center; 
+ }
+ .paracalander{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-left: 10px;
+ }
+.h1item8{
+  display: inline-block;
+}
+.Calander{
+    font-size: 12px;
+    color: white;
+    margin-left: 20px;
+ }
+
+
+.h2item8{
+  display: inline-block;
+}
+.h2{
+    margin-top: -25px;
+     font-size: 40px; 
+     font-weight: 10;
+    color: white;
+     margin-left: 50px; 
+}
+.item8para{
+    color: white;
+     margin-left: 50px; 
+}
+.item9{
+    background-color:purple ;
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-message{
+    font-size: 40px;
+    color: white;
+}
+.message{ 
+     color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 230px;
+}
+.item10{
+    background-color: orange;
+   grid-column: 3 /span 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fa-user-group{
+    font-size: 40px;
+    color: white;
+}
+.people{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 240px;
+}
+.item11{
+    background-color: green ;
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-envelope{
+    font-size: 40px;
+    color: white;
+}
+.mail{
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 12px;
+    margin-right: 250px;
+}
+.item12{
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-desktop{
+    font-size: 40px;
+    color: white;
+}
+.desktop{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 12px;
+    margin-right: 85px;
+}
+.item13{
+    background-color:royalblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-headphones{
+    font-size: 40px;
+    color: white;
+}
+.headphone{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 12px;
+    margin-right: 70px;
+}
+.item14{
+    background-color:royalblue ;
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.weather{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 12px;
+    margin-right: 225px;
+}
+.icon{
+  
+  margin-left: 10px;
+  font-size: 30px;
+ }
+.fa-earth-asia{
+   background-image: linear-gradient(grey , rgba(0, 0, 255, 0.479));
+}
+.text{
+    margin-top: -30px;
+}
+.percent{
+  font-size: 20px;
+  color: white;
+
+}
+.pasia{
+    color: white;
+   
+}
+.pcloud{
+    color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.item15{
+    background-color:red ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-camera-retro{
+    font-size: 40px;
+    color: white;
+}
+.camera{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 12px;
+    margin-right: 90px;
+}
+.item16{
+    background-color:greenyellow ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-xbox{
+    font-size: 40px;
+    color: white;
+} 
+.xbox{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 12px;
+    margin-right: 90px;
+}
+  
+  
+  
+  
+  
+   
+  
+
+ 
